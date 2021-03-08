@@ -27,71 +27,70 @@ const Skills = () => {
               <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '50px', marginBottom: '50px'}}>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={CPP} className="Logo" alt="C++ Logo"></img>
-                    <p>C++</p>
+                    <p style={{marginTop: "15px"}}>C++</p>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={Python} className="Logo" alt="Python Logo"></img>
-                    <p>Python</p>
+                    <p style={{marginTop: "15px"}}>Python</p>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={Javascript} className="Logo" alt="Javascript Logo"></img>
-                    <p>Javascript</p>
+                    <p style={{marginTop: "15px"}}>Javascript</p>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={Markdown} className="Logo" alt="Markdown Logo"></img>
-                    <p>Markdown</p>
+                    <p style={{marginTop: "15px"}}>Markdown</p>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={HTML5} className="Logo" alt="HTML5 Logo"></img>
-                    <p>HTML</p>
+                    <p style={{marginTop: "15px"}}>HTML</p>
                 </div>
             </div>
 
             <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '50px', marginBottom: '50px'}}>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={CSS3} className="Logo" alt="CSS3 Logo"></img>
-                    <p>CSS</p>
+                    <p style={{marginTop: "15px"}}>CSS</p>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={Bootstrap} className="Logo" alt="Bootstrap Logo"></img>
-                    <p>Bootstrap</p>
+                    <p style={{marginTop: "15px"}}>Bootstrap</p>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={ReactLogo} className="Logo" alt="ReactJS Logo"></img>
-                    <p>ReactJS</p>
+                    <p style={{marginTop: "15px"}}>ReactJS</p>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={Express} className="Logo" alt="ExpressJS Logo"></img>
-                    <p>ExpressJS</p>
+                    <p style={{marginTop: "15px"}}>ExpressJS</p>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={Node} className="Logo" alt="Node Logo"></img>
-                    <p>NodeJS</p>
+                    <p style={{marginTop: "15px"}}>NodeJS</p>
                 </div>
             </div>
 
             <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '50px', marginBottom: '50px'}}>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={MySQL} className="Logo" alt="MySQL Logo"></img>
-                    <p>MySQL</p>
+                    <p style={{marginTop: "15px"}}>MySQL</p>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={MongoDB} className="Logo" alt="MongoDB Logo"></img>
-                    <p>MongoDB</p>
+                    <p style={{marginTop: "15px"}}>MongoDB</p>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={Git} className="Logo" alt="Git Logo"></img>
-                    <p>Git</p>
+                    <p style={{marginTop: "15px"}}>Git</p>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={Bash} className="Logo" alt="Bash Logo"></img>
-                    <p>Bash</p>
+                    <p style={{marginTop: "15px"}}>Bash</p>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img src={Photoshop} className="Logo" alt="Photoshop Logo"></img>
-                    <p>Photoshop</p>
+                    <p style={{marginTop: "15px"}}>Photoshop</p>
                 </div>
-                
               </div>
             </Container>
         </div>
