@@ -6,7 +6,7 @@ import ToDoList from '../images/todolist.jpg';
 
 const Projects = () => {
   return (
-    <div style={{ backgroundColor: '#001a33', color: 'white', paddingBottom: '70px' }}>
+    <div id="projects" style={{ backgroundColor: '#001a33', color: 'white', paddingBottom: '70px' }}>
       <h1 style={{ textAlign: 'center', paddingTop: '40px', marginBottom: '40px' }}>Projects</h1>
       <CardDeck>
         <Card bg='dark'>

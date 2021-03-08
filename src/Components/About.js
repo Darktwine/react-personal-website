@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 
 const About = () => {
   return (
-    <div style={{backgroundColor: '#001a33', marginTop: '-32px', paddingTop: '20px', paddingBottom: '10px'}}>
+    <div id="about" style={{backgroundColor: '#001a33', marginTop: '-32px', paddingTop: '20px', paddingBottom: '10px'}}>
       <Container style={{display:'flex', justifyContent: 'center', alignItems: 'center', minHeight: '200px', flexWrap: 'wrap', color: 'white'}}>
         <h1 style={{justifyContent: 'center', alignItems: 'center', width: '100%', textAlign: 'center', marginTop: '15px'}}>Hi, I'm Kevin.</h1>
         <p style={{maxWidth: '650px', justifyContent: 'center', alignItems: 'center', textAlign: 'left', marginBottom: '60px'}}>
