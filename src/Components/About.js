@@ -2,10 +2,10 @@ import Container from 'react-bootstrap/Container';
 
 const About = () => {
   return (
-    <div style={{backgroundColor: '#001a33', marginTop: '-32px'}}>
+    <div style={{backgroundColor: '#001a33', marginTop: '-32px', paddingTop: '20px', paddingBottom: '10px'}}>
       <Container style={{display:'flex', justifyContent: 'center', alignItems: 'center', minHeight: '200px', flexWrap: 'wrap', color: 'white'}}>
-        <h1 style={{justifyContent: 'center', alignItems: 'center', width: '100%', textAlign: 'center', marginTop: '25px'}}>Hi, I'm Kevin.</h1>
-        <p style={{maxWidth: '650px', justifyContent: 'center', alignItems: 'center', textAlign: 'left'}}>
+        <h1 style={{justifyContent: 'center', alignItems: 'center', width: '100%', textAlign: 'center', marginTop: '15px'}}>Hi, I'm Kevin.</h1>
+        <p style={{maxWidth: '650px', justifyContent: 'center', alignItems: 'center', textAlign: 'left', marginBottom: '60px'}}>
           Welcome to my personal website! I am a senior majoring in computer science at Hunter College,
           and an aspiring full stack developer. I love to build things and enjoy reading, writing, programming, and designing.
           <br/>
