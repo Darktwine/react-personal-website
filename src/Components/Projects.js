@@ -1,3 +1,4 @@
+import Button from 'react-bootstrap/Button';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
 import ERC20 from '../images/erc20-tokens-ethereum-logo.jpg';
@@ -18,7 +19,7 @@ const Projects = () => {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Github</small>
+            <Button href="https://github.com/Darktwine/ERC20_Token_Escrow_Contract" rel='noreferrer' target="_blank" outline="none" variant="success"><small>Github</small></Button>
           </Card.Footer>
         </Card>
         <Card bg='dark'>
@@ -30,7 +31,7 @@ const Projects = () => {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Github</small>
+            <Button href="https://github.com/Darktwine/budgety" rel='noreferrer' target="_blank" outline="none" variant="success"><small>Github</small></Button>
           </Card.Footer>
         </Card>
         <Card bg='dark'>
@@ -42,7 +43,7 @@ const Projects = () => {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Github</small>
+            <Button href="https://github.com/Darktwine/react-task-tracker" rel='noreferrer' target="_blank" outline="none" variant="success"><small>Github</small></Button>
           </Card.Footer>
         </Card>
       </CardDeck>
