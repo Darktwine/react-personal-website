@@ -21,7 +21,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div id="skills" style={{backgroundColor: '#101909', color: 'white', marginTop: '-25px', paddingBottom: '10px'}}>
+        <div id="skills" style={{backgroundColor: '#101909', color: 'white', marginTop: '-25px', paddingBottom: '50px'}}>
             <Container>
               <h1 style={{ textAlign: 'center', paddingTop: '40px' }}>Skills</h1>
               <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '50px', marginBottom: '50px'}}>
