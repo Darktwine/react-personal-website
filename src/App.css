@@ -4,6 +4,7 @@
   pointer-events: none;
 }
 
-.Hero-bg-image {
-  background-image: url('./images/Hero-minimum.jpg')
+
+.hero-bg-image {
+  background-image: url('./images/Hero-minimum.jpg');
 }

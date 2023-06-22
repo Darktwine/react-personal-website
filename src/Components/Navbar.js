@@ -1,6 +1,7 @@
+import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Resume from '../Files/KW_Resume_2021.pdf';
+import Resume from '../Files/Kevin_Wong_Resume.pdf';
 
 const NavbarBS = () => {
     return (
@@ -12,7 +13,7 @@ const NavbarBS = () => {
             <Nav.Link href="#about" className="ml-auto" style={{color: "white"}}>About </Nav.Link>
             <Nav.Link href="#skills" className="ml-auto" style={{color: "white"}}>Skills</Nav.Link>
             <Nav.Link href="#projects" className="ml-auto" style={{color: "white"}}>Projects</Nav.Link>
-            <Nav.Link href={Resume} download="KW_Resume_2021.pdf" className="ml-auto" style={{color: "white"}}>Resume</Nav.Link>
+            <Nav.Link href={Resume} target="_blank" rel="noopener noreferrer" className="ml-auto" style={{color: "white"}}>Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
